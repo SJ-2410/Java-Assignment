@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+</head>
+<body>
+
+    <h1>SWATI JOSHI</h1>
+
+    <div>Student ID: BCR23197</div>
+
+    <hr>
+
+    <h2><span role="img" aria-label="person">👤</span> Profile Summary</h2>
+
+    <p>
+        I am a <b>BCA Student</b> passionate about <i>web development</i> and learning new technologies.
+        I believe that <i>continuous learning </i> is key to success in the IT field.
+        I am currently focusing on HTML, CSS, and JavaScript.
+        <br> I enjoy building projects and solving complex problems.
+    </p>
+
+    <hr>
+
+    <h2><span role="img" aria-label="university">🏫</span> College Details</h2>
+    <p><b>Institute of Management Studies, Noida</b></p>
+
+    <img src="https://www.bbacollegesindia.in/wp-content/uploads/2022/06/ims-logo.png" alt="College Logo" style="width:100px; height:auto;">
+   
+
+    <hr>
+
+    <h2><span role="img" aria-label="books">📚</span> My Subjects</h2>
+
+    <table border="1" style="width: 50%;">
+        <thead>
+            <tr>
+                <th>Subject Code</th>
+                <th>Subject Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BCA-501</td>
+                <td>Introduction to DBMS</td>
+            </tr>
+            <tr>
+                <td>BCA-502</td>
+                <td>Java Programming & Dynamic Webpage Design</td>
+            </tr>
+            <tr>
+                <td>BCA-503</td>
+                <td>Computer Network</td>
+            </tr>
+            <tr>
+                <td>BCA-504</td>
+                <td>Numerical Methods</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h2><span role="img" aria-label="email">📧</span> Contact Me</h2>
+
+    <form action="/submit_form" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+
+    <h2><span role="img" aria-label="link">🔗</span> Assignment Repository</h2>
+
+    <p>
+        <a href="https://github.com/SJ-2410/Java-Assignment" target="_blank">**My GitHub Repository**</a>
+    </p>
+
+    <hr>
+
+    <footer>
+        <p>
+            &copy; 2025 Swati Joshi. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
